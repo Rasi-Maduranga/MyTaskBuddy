@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "MyTaskBuddy",
+    "slug": "MyTaskBuddy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Icon.png",
+    "scheme": "mytaskbuddy",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/Icon.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.maduranga1234.MyTaskBuddy"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/Icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/Icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "939b794e-b3eb-4750-a834-1ffd2f91a6bf"
+      }
+    }
+  }
+}
